@@ -5,7 +5,7 @@ using namespace std;
 
 int main() {
     int a, b;
-    float resultado;
+    int resultado;
 
     cin >> a >> b;
 
