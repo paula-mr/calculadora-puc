@@ -17,5 +17,10 @@ int multiplicacao(int operadorA, int operadorB) {
 }
 
 int potenciacao(int base, int potencia) {
-    return 0;
+    int resultado = base;
+
+    for (int i=0; i<potencia-1; i++)
+        resultado *= base;
+
+    return resultado;
 }
