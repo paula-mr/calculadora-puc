@@ -8,7 +8,7 @@ int subtracao(int minuendo, int subtraendo) {
     return minuendo - subtraendo;
 }
 
-int divisao(int numerador, int denominador) {
+float divisao(int numerador, int denominador) {
     return numerador/denominador;
 }
 
